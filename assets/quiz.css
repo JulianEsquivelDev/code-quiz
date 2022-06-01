@@ -1,0 +1,54 @@
+.choice-box {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    background: orange;
+    min-width: 1000px;
+    margin-bottom: 30px;
+}
+.choice-box:hover {
+    transform: scale(1.03);
+    background: white;
+}
+.choice-holder {
+    padding: 30px;
+
+}
+.choice-input {
+    padding: 30px;
+    width: 15%;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+
+.display-score {
+    text-align: center;
+}
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223,36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11,223,36);
+    width: 0%;
+}
+.progressContainer {
+    margin-left: 335px;
+}

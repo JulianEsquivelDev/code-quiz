@@ -1,0 +1,40 @@
+body {
+    background: green;
+}
+h1 {
+    color: orange;
+    font-size: 100px;
+}
+/* section tag */
+.startPg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.startBtn {
+    text-decoration: none;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    background-color: orange;
+    margin: 20px;
+    padding: 30px;
+    color: green;
+}
+.highBtn {
+    text-decoration: none;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    padding: 30px;
+    color: green;
+}
